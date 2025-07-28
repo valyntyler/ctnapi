@@ -2,5 +2,7 @@
 name = "ctnapi"
 version = "0.1.0"
 edition = "2024"
+description = "An API for modeling games of CTN"
+license = "GPL-3.0"
 
 [dependencies]
