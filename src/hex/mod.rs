@@ -5,6 +5,6 @@ pub mod number;
 pub mod terrain;
 
 pub struct Hex {
-    number: HexNumber,
-    terrain: HexTerrain,
+    pub number: HexNumber,
+    pub terrain: HexTerrain,
 }
