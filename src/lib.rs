@@ -1,3 +1,4 @@
+pub mod card;
 pub mod dice;
 pub mod hex;
 
