@@ -2,4 +2,4 @@ repository:
   name: ctnapi
   description: An API for modeling games of CTN
   homepage: https://crates.io/crates/ctnapi
-  topics: strategy, board game, api
+  topics: rust, strategy, board game, api
