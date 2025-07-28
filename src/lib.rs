@@ -2,6 +2,6 @@ pub mod card;
 pub mod dice;
 pub mod hex;
 
-trait Weight {
+pub trait Weight {
     fn weight(&self) -> usize;
 }
