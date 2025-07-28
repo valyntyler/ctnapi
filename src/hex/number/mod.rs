@@ -1,3 +1,5 @@
+use crate::Weight;
+
 pub enum HexNumber {
     _2,
     _3,
@@ -10,4 +12,13 @@ pub enum HexNumber {
     _10,
     _11,
     _12,
+}
+
+impl Weight for HexNumber {
+    fn weight(&self) -> usize {
+        match self {
+            HexNumber::_2 | HexNumber::_12 => 1,
+            _ => 2,
+        }
+    }
 }
